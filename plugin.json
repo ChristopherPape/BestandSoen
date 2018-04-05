@@ -1,0 +1,15 @@
+{
+    "version"           : "0.0.1",
+    "name"              : "BestandsabgleichSoennecken" ,
+    "description"       : "Bestandsabgleich via Soennecken FTP Datei." ,
+    "namespace"         : "BestandSoen" ,
+    "author"            : "Christopher Pape" ,
+    "type"              : "backend " ,
+    "serviceProvider"   : "BestandSoen\\Providers\\BestandsabgleichSoenneckenProvider",
+    "containers"        : [],
+    "dataProviders"     : [],
+    "javaScriptFiles"   : [],
+    "require"           : [],
+    "dependencies"      : [],
+    "runOnBuild"        : []
+}
