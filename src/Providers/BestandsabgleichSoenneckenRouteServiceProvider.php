@@ -10,7 +10,7 @@ class BestandsabgleichSoenneckenRouteServiceProvider extends RouteServiceProvide
 
     public function map(Router $router){
 
-        $router->get('testsite','BestandSoen\Controllers\ContentController@sayHello');
+        $router->get('testsite','BestandSoen\Controllers\ContentController@tranferData');
 
     }
 }

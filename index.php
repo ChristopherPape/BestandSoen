@@ -76,7 +76,7 @@ $size = round((filesize($local_dir . '/' . $file) / 1024) / 1024, 3);
 $laufzeit = $script_end - $script_start;
 
 # Logfile aktualisieren
-$content = '############# Logfile #############';
+$content = '############## Logfile ##############';
 
 $content .= "\r\n#\r\n";
 
@@ -96,7 +96,7 @@ $content .= '# Laufzeit: ' . $laufzeit . ' Sekunden';
 
 $content .= "\r\n#\r\n";
 
-$content .= '############### END ###############';
+$content .= '################ END ################';
 
 $handle = fopen($local_dir . '/logfile.txt', 'w');
 
